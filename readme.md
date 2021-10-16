@@ -1,12 +1,12 @@
 # FFT from Scratch 
-Fast Fourier Transform algorithm implemented from scratch. 
+Fast Fourier Transform algorithm implemented from scratch. Adapted from pseudo-code in [[1]](#1).
 
 ## Requirements 
 A C-compiler is required in order to run the C-code.
 Anaconda is required in order to run the Jupyter Notebook.
 
 ## Usage
-This is by no means better than a library such as fftw3 and UFFT. This was implemented as a portfolio project.
+This is by no means better than a library such as fftw3 and UFFT.
 
 ### C Implementation
 Only the magnitude for the C implementation is calculated. It prints out the magnitude that an FFT would achieve on an arbitrary piece of data.
@@ -30,3 +30,7 @@ This notebook does the following:
 4. Calculate the magnitude and phase of the FFT
 5. Simulating what an FFT would look like on a DSP boards pixels for both magnitude and phase
 6. Does a test between a DFT and FFT to ensure outputs are the same by working with generated signals
+
+## References 
+<a id="1">[1]</a>
+E. C. Ifeachor and B. W. Jervis, Digital signal processing: a practical approach, 2nd ed. Harlow, England ; New York: Prentice Hall, 2002.
